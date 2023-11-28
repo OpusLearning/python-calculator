@@ -25,8 +25,6 @@ print("4. Divide")
 print("5. Power")
 print("6. Square_root")
 
-
-
 choice = input("Enter choice(1/2/3/4/5/6): ")
 
 num1 = float(input("Enter first number: "))
@@ -40,10 +38,17 @@ elif choice == '3':
     print(num1, "*", num2, "=", multiply(num1, num2))
 elif choice == '4':
     print(num1, "/", num2, "=", divide(num1, num2))
+<<<<<<< HEAD
 elif choice == '5':
     print(num1, "**", num2, "=",  power(num1, num2))
 elif choice == '6':
     print(num1, "/", num2, "=", Square_root(num1, num2))
+=======
+elif choice == "5":
+    print(num1, "**", num2, "=", power(num1,num2))
+elif choice == "6":
+    print(num1, "root", num2, "=", square_root(num1,num2))
+>>>>>>> feature-advanced-calc
 
 else:
     print("Invalid Input")
